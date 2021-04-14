@@ -1,0 +1,58 @@
+What is software testing?
+---->identify correctness and quality of the application.
+
+How many ways we can actually test?
+--->manual
+---->automation
+
+
+when do you go for automation?
+--->after manual testing passed
+--->when environment is stable
+---->analyze our test suite and choose our automation tools.
+
+What other automation tools do we know about?
+---> Selenium ,Cucumber, TestNG, UFT/QTP, Katalon Studio, Serenity
+
+Levels of testing?
+-- unit testing
+--integration testing
+--system testing-->evaluates both functional and non-functional needs for the testing
+--acceptance testing-->Acceptance testing is basically done by the user or customer.
+
+Types of Software testing?
+-->functional or non-functional testing
+--> smoke test , regression test , sanity check
+--> non functional testing ---> performance testing and security testing.
+
+What is selenium?
+Selenium is a set of tools which helps to automate web application . Its mainly used to perform functional testing.
+
+
+Selenium components:
+--> selenium ide- integrated development environment
+-->selenium Rc -- remote control
+---> selenium grid
+---> Selenium WebDriver
+
+What is selenium WebDriver?
+---> Its a open source automation tool which allows you to perform actions on a web page.
+WebDriver is an interface.
+
+Advantage of selenium?
+-->open source
+--> os independent
+---> supports multiple language -->java ruby,c#
+--->work with multiple differentWeb browser
+
+
+Disadvantage of selenium?
+--> Cannot automate desktop applications
+--> No technical support
+-->cannot verify image/picture
+--> doesn't have inbuilt reporting feature
+-->cannot test CAPTCHA/Barcodes
+
+quit() vs closed()
+closed close the current tab but quit quit all the tab at same time.
+
