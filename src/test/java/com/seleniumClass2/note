@@ -1,0 +1,32 @@
+What are web element?
+--> webElement are anything that we see in web page
+eg buttons text boxes checkboxes radio buttons ets.
+
+HTML?
+HyperText markup language.
+
+What is dom?
+dom stands for document object model. It is a browser internal view of the web page also called Developer tools.
+Document -->Can be stored any document like pdf exel or word
+object--> any line in HTML is called object.
+Model --> Itis just a layout of the Html file in DOM.
+
+What is locator?
+Locator is an address or a position of a webElement in athe web page it is used to locate the object of the web page.
+
+id
+name
+className
+TagName
+linkText
+partial LinkText
+xpath
+Css selector
+
+HTML Scripting meaning:
+purple--> tags
+brown or orange --> attributes
+blue --> attribute value
+
+Why do we need so many locators?
+-- some locators might have a duplicate value

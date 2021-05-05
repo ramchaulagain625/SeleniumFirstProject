@@ -1,0 +1,89 @@
+css Selectors(Cascading styling Sheet)
+
+it is another way of locating elements uniquely.
+
+Syntax=tagname[attribute='attribute value']
+input[id='user-message']
+
+Css does not give you an opportunity to identify and element by text.
+
+Shortcuts for CSS:
+shortcut for className;"."--classname
+tagname.classNameValue
+Eg:-input.form-control
+
+Shortcut for ID:"#" --ID
+Tagname#idvalue
+input#ctl00_MainContext_username
+
+contains() method in css:
+*Symbol represents contains() method = tagname[attribute *="partial attribute value"]
+
+Starts with method in CSS:
+^symbol represents Start with method starting attribute value
+input[id^='user']
+
+
+ends with value
+$ symbol represent teh end method ending attribute value
+input[id $='word']
+
+WebElement commands:
+consists of several methods which perform actions and get element state on the web page.
+isEnableed()--->boolean value
+isSellected ()---> boolean
+isDisplayed()---> boolean value
+claer()--->void method
+getText()---> String value
+getAttributes()---> String value
+
+Notes from Anusha
+Custom CSS:
+``````````````
+1. id--> htmltag#id , #id
+2. class --> htmltag.classname, .classname,
+         -->(when 2-3 classes are present) .c1.c2.c3    or
+         --> htmltag.c1.c2.c3...cn
+3. parent>childtag (parent greater than child)
+    ul#categories
+    #username
+    input#username
+    input.form-control.private-form__control.login-email
+    input#username.form-control.private-form__control.login-email
+    input.login-email
+    .form-control.private-form__control.login-email
+4. htmltag[id='value']
+  //div[@id='test']
+    input[id='username'] -- css with one attribute
+      //input[@id='username'] --xpath
+    input[id='username'][type='email'] -- css with two attributes
+    //input[@id='username' and @type='email'] -- xpath
+5. contains the text in css:
+    input[id*='user']
+    input[id*='name']
+    id =
+    test_123
+    test_345
+    test_456
+    input[id*=test_]
+6. starting the text in css:
+    input[id^='user']
+7. ending the text in css:
+    input[id$='name']
+8. comma in css:
+    div.private-form__input-wrapper, input#username
+9. first-of-type in css:
+    ul#categories>li:first-of-type
+10. last-of-type in css:
+    ul#categories>li:last-of-type
+11. nth-of-type
+    ul#categories>li:nth-of-type(1)
+    ul#categories>li:nth-of-type(14)
+    ul#categories>li:nth-of-type(3)
+    ul#categories>li:nth-of-type(n) -- all
+12. sibling of element:
+    div.private-form__input-wrapper + div
+    div.private-form__input-wrapper+div.private-form__meta
+    ul#categories>li:nth-of-type(3)+li
+13. not operator in css:
+    input.form-control.private-form__control:not(.login-password)

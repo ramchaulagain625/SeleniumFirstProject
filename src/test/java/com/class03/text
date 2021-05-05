@@ -1,0 +1,33 @@
+Selenium class 3
+Why do we need Xpath and Css?
+1. Developers will not provide all the locators in the HTML
+2. By using xpath or css locator we can find actually the element.
+
+ //DOM document object model
+What is Xpath?
+Xpath is a query language which helps to identity elements uniquely on the web page.
+
+
+There is two types of Xpath
+They are Absolute Xpath also known as full xpath. It always start from the start of Html. It's start with single /.
+
+
+
+Relative Xpath--> Start from any nodes of html . Starts with double forward slash //.
+Syntax //tagname[@attribute='value']
+eg //a[text()= 'Fashion']
+
+Contains while identify element with a partial attribute value.
+// tag name[contains(@attribute,'partial attribute value']
+eg //input[contains(@placeholder,'Email')] This is the best xpath.
+//a[contains(text(), 'Create New')]
+
+Starts with --> will identify the element with starting partial value
+//tagname[starts-with@attribute,'partial starting value']
+
+Ends
+
+
+Advance xpath
+eg.
+     //input[@id='calFromDate']/following-sibling::img

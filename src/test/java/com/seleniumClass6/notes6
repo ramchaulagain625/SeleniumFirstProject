@@ -1,0 +1,28 @@
+Alerts:
+Alerts is popup message . Alerts takes complete focus of our main page that we are working on.
+we Cannot proceed until it is handle.
+
+There are main three types of alerts:
+1) Web based alerts / HTML alerts-we can simply inspect and perform needed actions.
+2) Javascript alerts/browser alerts- we can handle this alerts by using switch to() method. We cannot inspects this types of alerts
+
+3) Windows based alerts- we cannot handle this types of alerts with selenium.
+
+Types of JS alerts:
+Simple alerts : we can only click ok.
+2) Confirmation alerts- either confirm or cancel
+3) prompt alerts -we can perform some types of action on this alerts.
+
+
+To handle js alerts we only have 4 options
+1. accepts();
+2.dismiss();
+3.getText();
+4.sendKeys();
+
+Frames
+Frames is a separate independent window in our webpage
+ 3 ways to interact with frames:
+ 1. By index
+ 2.By id or name
+ 3. By web element
